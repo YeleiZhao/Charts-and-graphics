@@ -21,9 +21,11 @@ namespace example1_1
         protected override void OnPaint(PaintEventArgs e)
         {
             Graphics g = e.Graphics;
+            //Following codes shift the origin to the center of the client area,and then draw a line from (0,0) to (1,1)
             g.PageUnit = GraphicsUnit.Inch;
-            Pen blackPen = new Pen(Color.Black, 1 / g.DpiX);
-            g.DrawLine(blackPen, 0, 0, 1, 1);
+            g.TranslateTransform((ClientRectangle.Width / g.DpiX / 2), (ClientRectangle.Height / g.DpiY) / 2);
+            Pen greenPen = new Pen(Color.Green, 20 / g.DpiX);
+            g.DrawLine(greenPen, 0, 0, 2, 2);
         }
     }
    
