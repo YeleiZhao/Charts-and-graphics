@@ -1,0 +1,8 @@
+E:\zyl\example1_1\example1_1\bin\Debug\example1_1.exe.config
+E:\zyl\example1_1\example1_1\obj\Debug\example1_1.csprojResolveAssemblyReference.cache
+E:\zyl\example1_1\example1_1\obj\Debug\example1_1.Properties.Resources.resources
+E:\zyl\example1_1\example1_1\obj\Debug\example1_1.csproj.GenerateResource.Cache
+E:\zyl\example1_1\example1_1\bin\Debug\example1_1.exe
+E:\zyl\example1_1\example1_1\bin\Debug\example1_1.pdb
+E:\zyl\example1_1\example1_1\obj\Debug\example1_1.exe
+E:\zyl\example1_1\example1_1\obj\Debug\example1_1.pdb
